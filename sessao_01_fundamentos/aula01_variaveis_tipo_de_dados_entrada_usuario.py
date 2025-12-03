@@ -30,4 +30,6 @@
 # input() solicita a o usuario algum valor (interage com usuario)
 
 nome = input('Digite um nome: ')
-print(nome)
+idade = input('Digite sua idade: ')
+
+print('Olá', nome, 'Você tem', idade, 'anos de idade')
