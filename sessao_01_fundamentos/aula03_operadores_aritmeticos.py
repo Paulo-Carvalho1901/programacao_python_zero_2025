@@ -26,10 +26,13 @@ print(num1 ** num2) # potencia
 
 
 # criando calculo de desconto
-preco = 50 # Valor em Real
-desconto = 10 # desconto em porcentagem
+# preco = 50 # Valor em Real
+# desconto = 10 # desconto em porcentagem
+
+preco = float(input('Digite o preço do produto: '))
+desconto = float(input('Digite o total do desconto: '))
 
 # calculo
 # preco - preco * desconto / 100
 novo_preco = preco - (preco * desconto / 100)
-print(f'O valor com desconto é de R${novo_preco}')
+print(f'O valor com desconto é de R${novo_preco} reais')
