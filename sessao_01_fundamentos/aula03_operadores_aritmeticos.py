@@ -35,4 +35,4 @@ desconto = float(input('Digite o total do desconto: '))
 # calculo
 # preco - preco * desconto / 100
 novo_preco = preco - (preco * desconto / 100)
-print(f'O valor com desconto é de R${novo_preco} reais')
+print(f'O valor com desconto é de R$ {novo_preco} reais')
